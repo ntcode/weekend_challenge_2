@@ -18,7 +18,8 @@ setInterval(function(){
     '<div>' + "<b>Name: </b>" + kappa[index].name + '</div>' +
     '<div>' + "<b>From: </b>" + kappa[index].location + '</div>' +
     '<div>' + "<b>Spirit Animal: </b>" + kappa[index].spirit_animal + '</div>' +
-    '<div>' + "<b>Shoutout: </b>" + kappa[index].shoutout + '</div>');
+    '<div>' + "<b>Shoutout: </b>" + kappa[index].shoutout + '</div>' +
+    '<img src="' + kappa[index].image + '">');
 
   index++;
   if (index > kappa.length -1) {
@@ -37,7 +38,8 @@ $('.click').on('click', '.prev', function(){
     '<div>' + "<b>Name: </b>" + kappa[index].name + '</div>' +
     '<div>' + "<b>From: </b>" + kappa[index].location + '</div>' +
     '<div>' + "<b>Spirit Animal: </b>" + kappa[index].spirit_animal + '</div>' +
-    '<div>' + "<b>Shoutout: </b>" + kappa[index].shoutout + '</div>');
+    '<div>' + "<b>Shoutout: </b>" + kappa[index].shoutout + '</div>' +
+    '<img src="' + kappa[index].image + '">');
 });
 //click next button - next kappa
 $('.click').on('click', '.next', function(){
@@ -51,7 +53,8 @@ $('.click').on('click', '.next', function(){
     '<div>' + "<b>Name: </b>" + kappa[index].name + '</div>' +
     '<div>' + "<b>From: </b>" + kappa[index].location + '</div>' +
     '<div>' + "<b>Spirit Animal: </b>" + kappa[index].spirit_animal + '</div>' +
-    '<div>' + "<b>Shoutout: </b>" + kappa[index].shoutout + '</div>');
+    '<div>' + "<b>Shoutout: </b>" + kappa[index].shoutout + '</div>' +
+    '<img src="' + kappa[index].image + '">');
 });
 
 }

@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "express": "^4.13.4",
-    "jquery": "^2.2.1"
+    "jquery": "^2.2.1",
+    "mongo": "^0.1.0"
   }
 }
